@@ -1,0 +1,17 @@
+.gallery-container {
+    padding: 1rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-columns: minmax(250px, auto);
+  gap: 1rem;
+  &_image {
+    border: 1px solid #000000;
+    border-radius: 1rem;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+      border-radius: 1rem;
+    }
+  }
+}
