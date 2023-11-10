@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./handycrafts.scss";
 import { handyImages } from "../../utils/data";
+import ImageModal from "../ImageModel";
 
 const disableRightClick = (event) => {
   event.preventDefault();
 };
 
 const HandyCrafts = () => {
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  const openModal = (imageUrl) => {
+    setSelectedImage(imageUrl);
+  };
+
+  const closeModal = () => {
+    setSelectedImage(null);
+  };
+
   return (
     <div className="handicrafts-container">
       {handyImages.map((item, id) => {
@@ -16,10 +27,18 @@ const HandyCrafts = () => {
               src={item.url}
               alt={item.alt}
               onContextMenu={disableRightClick}
+              onClick={() => openModal(item.url)}
             />
           </div>
         );
       })}
+      {selectedImage && (
+        <ImageModal
+          imageUrl={selectedImage}
+          alt="Image Modal"
+          onClose={closeModal}
+        />
+      )}
     </div>
   );
 };
