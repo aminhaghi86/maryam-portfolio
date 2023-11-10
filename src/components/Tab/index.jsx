@@ -2,6 +2,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import "./tab.scss";
 import Gallery from "../Gallery";
+import HandyCrafts from "../HandyCrafts";
 export default () => (
   <div className="tab-container">
     <Tabs>
@@ -10,6 +11,7 @@ export default () => (
         <Tab>Painting</Tab>
         <Tab>Illustrations</Tab>
         <Tab>Graphic</Tab>
+        <Tab>Handicrafts</Tab>
       </TabList>
 
       <TabPanel>
@@ -27,6 +29,10 @@ export default () => (
       <TabPanel>
         <h2>Any content 4</h2>
         <Gallery />
+      </TabPanel>
+      <TabPanel>
+        <h2>Any content 5</h2>
+        <HandyCrafts />
       </TabPanel>
     </Tabs>
   </div>

@@ -7,7 +7,7 @@ nav {
   left: 0;
   z-index: 4;
   background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  // box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
   border-radius: 10px;
@@ -34,9 +34,11 @@ nav {
     list-style-type: none;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
+    gap: 1rem;
 
     li {
+      margin: 0 1rem;
       a {
         padding: 8px 16px;
         text-decoration: none;
@@ -62,6 +64,7 @@ nav {
     }
 
     ul {
+      width: 100%;
       display: none;
       flex-direction: column;
       position: absolute;
@@ -69,15 +72,17 @@ nav {
       right: 0;
       width: 100%;
       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
-
+      gap: 0;
+      margin-top: 1rem;
       &.open {
         display: flex;
         z-index: 2;
       }
 
       li {
-        width: 100%;
+        width: 50%;
         text-align: center;
+        margin: 0;
 
         a {
           display: block;
