@@ -26,7 +26,7 @@ const TabHeader = () => {
   };
 
   return (
-    <div className="w-full px-2 py-16 sm:px-0">
+    <div className="w-full px-2 py-2 sm:px-0">
       <Tab.Group>
         <Tab.List className="flex space-x-1 rounded-xl bg-blue-900/20 p-1">
           {Object.keys(categories).map((category) => (
@@ -51,7 +51,7 @@ const TabHeader = () => {
             <Tab.Panel
               key={idx}
               className={classNames(
-                "rounded-xl  p-3",
+                "rounded-xl  p-2",
                 "ring-white/60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2"
               )}
             >
