@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./nav.scss";
 import Hamburger from "../SVG/Hamburger";
 import { Link } from "react-router-dom";
-import Logo from "../SVG/Logo";
+// import Logo from "../SVG/Logo";
 const Nav = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
@@ -27,7 +27,7 @@ const Nav = () => {
           </Link>
         </li>
       </ul>
-      {/* <img width={100} height={100} src="./IMG_0493.png" alt="maryam" style={{background:'none'}} /> */}
+
     </nav>
   );
 };
