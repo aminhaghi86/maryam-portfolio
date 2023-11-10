@@ -1,13 +1,12 @@
 import React from "react";
-
 import Landing from "../../components/Landing";
-import Tab from "../../components/Tab";
 import "./home.scss";
+import TabHeader from "../../components/TabHeader";
 const Home = () => {
   return (
     <>
       <Landing />
-      <Tab />
+      <TabHeader />
     </>
   );
 };

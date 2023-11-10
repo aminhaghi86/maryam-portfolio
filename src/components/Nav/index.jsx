@@ -1,33 +1,43 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./nav.scss";
 import Hamburger from "../SVG/Hamburger";
 import { Link } from "react-router-dom";
-// import Logo from "../SVG/Logo";
+
 const Nav = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const navRef = useRef(null);
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
   };
 
+  const closeMenu = (event) => {
+    if (navRef.current && !navRef.current.contains(event.target)) {
+      setMenuOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", closeMenu);
+
+    return () => {
+      document.removeEventListener("mousedown", closeMenu);
+    };
+  }, []);
+
   return (
-    <nav>
+    <nav ref={navRef}>
       <div className="menu-icon" onClick={toggleMenu}>
         <Hamburger />
       </div>
       <ul className={`nav-links ${isMenuOpen ? "open" : ""}`}>
         <li>
-          <Link onClick={toggleMenu} to={"/"}>
-            home
-          </Link>
+          <Link to={"/"}>home</Link>
         </li>
         <li>
-          <Link onClick={toggleMenu} to={"/about"}>
-            About
-          </Link>
+          <Link to={"/about"}>About</Link>
         </li>
       </ul>
-
     </nav>
   );
 };
