@@ -1,5 +1,5 @@
 import React from "react";
-import "./imagemodel.scss"; // You can create a separate CSS file for styling the modal
+import "./imagemodal.scss"; // You can create a separate CSS file for styling the modal
 
 const ImageModal = ({ imageUrl, alt, onClose }) => {
   return (
