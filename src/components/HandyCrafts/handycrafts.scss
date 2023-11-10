@@ -41,19 +41,9 @@
 @media screen and (max-width: 600px) {
   .handicrafts-container {
     grid-template-columns: 1fr;
-    padding: 0 5rem;
+    padding: 0 1rem;
     &_image {
       margin: 0;
     }
   }
 }
-// @media screen and (min-width: 400px) {
-//   .handicrafts-container {
-//     grid-auto-rows: minmax(350px, auto);
-//     grid-template-columns: 1fr;
-//     padding: 0 2rem;
-//     &_image {
-//       margin: 0;
-//     }
-//   }
-// }
