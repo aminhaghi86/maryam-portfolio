@@ -34,11 +34,11 @@ const TabHeader = () => {
               key={category}
               className={({ selected }) =>
                 classNames(
-                  "w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-fuchsia-600",
+                  "w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-black-900",
                   "ring-white/60 ring-offset-2 ring-offset-blue-400 focus:outline-none",
                   selected
                     ? "bg-white shadow"
-                    : "text-lime-200 hover:bg-white/[0.12] hover:text-white"
+                    : "text-white hover:bg-white/[0.12] hover:text-white"
                 )
               }
             >
@@ -51,7 +51,7 @@ const TabHeader = () => {
             <Tab.Panel
               key={idx}
               className={classNames(
-                "rounded-xl bg-white p-3",
+                "rounded-xl  p-3",
                 "ring-white/60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2"
               )}
             >
