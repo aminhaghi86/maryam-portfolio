@@ -28,9 +28,9 @@ const handyImages = [
 const HandyCrafts = () => {
   return (
     <div className="handicrafts-container">
-      {handyImages.map((item) => {
+      {handyImages.map((item, id) => {
         return (
-          <div className="handicrafts-container_image">
+          <div key={id} className="handicrafts-container_image">
             <img src={item.url} alt={item.alt} />
           </div>
         );

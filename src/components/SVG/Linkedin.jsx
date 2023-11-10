@@ -2,7 +2,9 @@ import React from "react";
 
 const Linkedin = () => {
   return (
-    <svg width="45" height="45" viewBox="0 0 512 512" fill="none">
+    <svg
+    className="linkedin"
+     viewBox="0 0 512 512" fill="none">
       <g>
         <path
           d="M472 0H40C17.9 0 0 17.9 0 40V472C0 494.1 17.9 512 40 512H472C494.1 512 512 494.1 512 472V40C512 17.9 494.1 0 472 0ZM482 472C482 477.5 477.5 482 472 482H40C34.5 482 30 477.5 30 472V40C30 34.5 34.5 30 40 30H472C477.5 30 482 34.5 482 40V472Z"
