@@ -1,7 +1,8 @@
 .handicrafts-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: minmax(400px, auto);
+  grid-auto-rows: minmax(450px, auto);
+  grid-auto-columns: minmax(300px, auto);
   gap: 1rem;
   padding: 0 2rem;
   &_image {
@@ -31,6 +32,28 @@
 @media screen and (max-width: 768px) {
   .handicrafts-container {
     grid-template-columns: 1fr;
-    padding: 0;
+    padding: 0 4rem;
+    &_image {
+      margin: 0;
+    }
   }
 }
+@media screen and (max-width: 600px) {
+  .handicrafts-container {
+    grid-template-columns: 1fr;
+    padding: 0 5rem;
+    &_image {
+      margin: 0;
+    }
+  }
+}
+// @media screen and (min-width: 400px) {
+//   .handicrafts-container {
+//     grid-auto-rows: minmax(350px, auto);
+//     grid-template-columns: 1fr;
+//     padding: 0 2rem;
+//     &_image {
+//       margin: 0;
+//     }
+//   }
+// }
