@@ -1,0 +1,13 @@
+.cv-container {
+  min-height: 85vh;
+  max-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+    border: 1px solid #000;
+    padding: 8px 16px;
+  }
+}
