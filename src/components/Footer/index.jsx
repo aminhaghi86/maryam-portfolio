@@ -3,7 +3,6 @@ import Linkedin from "../SVG/Linkedin";
 import Gmail from "../SVG/Gmail";
 import Instagram from "../SVG/Instagram";
 import { Link } from "react-router-dom";
-import Telegram from "../SVG/Telegram";
 import Whatsapp from "../SVG/Whatsapp";
 const index = () => {
   return (
@@ -38,16 +37,6 @@ const index = () => {
           <Linkedin />
         </Link>
       </div>
-      {/* <p className="amin-content">
-        Website designed and developed by
-        <Link
-          to={"mailto:aminhaghi@gmail.com"}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Amin Haghi
-        </Link>
-      </p> */}
     </footer>
   );
 };
