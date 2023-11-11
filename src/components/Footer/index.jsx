@@ -38,7 +38,7 @@ const index = () => {
           <Linkedin />
         </Link>
       </div>
-      <p className="amin-content">
+      {/* <p className="amin-content">
         Website designed and developed by
         <Link
           to={"mailto:aminhaghi@gmail.com"}
@@ -47,7 +47,7 @@ const index = () => {
         >
           Amin Haghi
         </Link>
-      </p>
+      </p> */}
     </footer>
   );
 };
