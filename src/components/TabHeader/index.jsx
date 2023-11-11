@@ -4,6 +4,7 @@ import HandyCrafts from "../HandyCrafts";
 import Painting from "../Painting";
 import Graphic from "../Graphic";
 import Design from "../Design";
+import Illustration from "../Illustration";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -19,7 +20,7 @@ const TabHeader = () => {
       component: <Painting />,
     },
     Illustrations: {
-      component: <HandyCrafts />,
+      component: <Illustration />,
     },
     Design: {
       component: <Design />,
