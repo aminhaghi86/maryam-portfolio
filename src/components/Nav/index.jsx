@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import Hamburger from "../SVG/Hamburger";
 import { Link } from "react-router-dom";
-
 const Nav = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
   const navRef = useRef(null);

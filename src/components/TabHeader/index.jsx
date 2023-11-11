@@ -1,6 +1,9 @@
 import React from "react";
 import { Tab } from "@headlessui/react";
 import HandyCrafts from "../HandyCrafts";
+import Painting from "../Painting";
+import Graphic from "../Graphic";
+import Design from "../Design";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -8,19 +11,20 @@ function classNames(...classes) {
 
 const TabHeader = () => {
   const categories = {
-    HandyCrafts: {
-      component: <HandyCrafts />,
+    Graphic: {
+      component: <Graphic />,
+    },
+
+    Painting: {
+      component: <Painting />,
     },
     Illustrations: {
       component: <HandyCrafts />,
     },
-    Painting: {
-      component: <HandyCrafts />,
-    },
     Design: {
-      component: <HandyCrafts />,
+      component: <Design />,
     },
-    Graphic: {
+    HandyCrafts: {
       component: <HandyCrafts />,
     },
   };
