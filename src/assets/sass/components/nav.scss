@@ -1,4 +1,6 @@
 nav {
+  display: flex;
+  justify-content: space-between;
   background: none;
   height: 10vh;
   width: 100%;
@@ -7,13 +9,13 @@ nav {
   left: 0;
   z-index: 4;
   background: rgba(255, 255, 255, 0.05);
-  .amin {
+  .logo {
     width: 100px;
-    height: 100px;
+    height: 100%;
+    object-fit: cover;
   }
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
-  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 
   .menu-icon {

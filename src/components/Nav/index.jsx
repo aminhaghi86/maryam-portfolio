@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Hamburger from "../SVG/Hamburger";
 import { Link } from "react-router-dom";
+import logo from '../../../public/IMG_0493.png'
 const Nav = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
   const navRef = useRef(null);
@@ -24,10 +25,11 @@ const Nav = () => {
   }, []);
 
   return (
-    <nav ref={navRef}>
+    <nav  ref={navRef}>
       <div className="menu-icon" onClick={toggleMenu}>
         <Hamburger />
       </div>
+      <img src={logo} alt="logo" className="logo"/>
       <ul className={`nav-links ${isMenuOpen ? "open" : ""}`}>
         <li>
           <Link to={"/"}>home</Link>
