@@ -1,17 +1,16 @@
 .handicrafts-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: minmax(450px, auto);
-  grid-auto-columns: minmax(300px, auto);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   gap: 1rem;
-  padding: 0 2rem;
+  padding: 0 1rem;
+
   &_image {
     position: relative;
+    width: calc(30% - 1rem);
     margin: 1rem;
+
     img {
-      position: absolute;
-      top: 0;
-      left: 0;
       width: 100%;
       height: 100%;
       object-fit: fill;
@@ -19,32 +18,21 @@
       transition: all 0.65s ease;
 
       &:hover {
-        -webkit-transform: scale(1.3);
         transform: scale(1.05);
         border-radius: 0.5rem;
       }
     }
   }
-}
-@media screen and (max-width: 992px) {
-  .handicrafts-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media screen and (max-width: 768px) {
-  .handicrafts-container {
-    grid-template-columns: 1fr;
-    padding: 0 4rem;
+
+  @media screen and (max-width: 992px) {
     &_image {
-      margin: 0;
+      width: calc(45% - 1rem);
     }
   }
-}
-@media screen and (max-width: 600px) {
-  .handicrafts-container {
-    grid-template-columns: 1fr;
-    padding: 0 1rem;
+
+  @media screen and (max-width: 768px) {
     &_image {
+      width: calc(100%);
       margin: 0;
     }
   }
