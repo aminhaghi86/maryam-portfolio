@@ -21,9 +21,7 @@ const About = () => {
         Isfahan Television, contributing to logo and stage design, cloth design,
         and even teaching the nuances of painting. My dedication extends to
         fostering creativity development, as evidenced by lectures and workshops
-        tailored for fellow art educators. As I continue this journey, I invite
-        you to join me in exploring the boundless possibilities of art, where
-        every stroke tells a unique story.
+        tailored for fellow art educators.
       </p>
 
       <div className="cv-container">
