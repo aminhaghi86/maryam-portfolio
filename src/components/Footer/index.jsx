@@ -2,7 +2,6 @@ import React from "react";
 import Linkedin from "../SVG/Linkedin";
 import Gmail from "../SVG/Gmail";
 import Instagram from "../SVG/Instagram";
-import "./footer.scss";
 import { Link } from "react-router-dom";
 const index = () => {
   return (

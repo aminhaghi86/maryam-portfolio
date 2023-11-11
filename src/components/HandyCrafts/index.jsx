@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./handycrafts.scss";
 import { handyImages } from "../../utils/data";
 import ImageModal from "../ImageModel";
 

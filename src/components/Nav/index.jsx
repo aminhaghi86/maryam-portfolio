@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import "./nav.scss";
 import Hamburger from "../SVG/Hamburger";
 import { Link } from "react-router-dom";
 

@@ -1,0 +1,16 @@
+@import "./pages/home.scss";
+@import "./pages/about.scss";
+@import "./components/footer.scss";
+@import "./components/gallery.scss";
+@import "./components/handycrafts.scss";
+@import "./components/imagemodal.scss";
+@import "./components/landing.scss";
+@import "./components/nav.scss";
+#root {
+  background: rgb(166, 166, 166);
+  background: linear-gradient(
+    90deg,
+    rgba(166, 166, 166, 1) 10%,
+    rgba(176, 176, 173, 1) 63%
+  );
+}
