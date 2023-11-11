@@ -1,0 +1,50 @@
+// Skills.scss
+.skills-container {
+  text-align: center;
+  padding: 3rem 1rem;
+
+  p {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+    letter-spacing: 3px;
+  }
+
+  .skills-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .skill-icon {
+      position: relative;
+      margin-right: 16px;
+   
+      transition: all 0.5s ease;
+      cursor: pointer;
+
+      svg {
+        width: 40px;
+        height: 40px;
+        &:hover {
+          transform: scale(0.95);
+        }
+      }
+
+      &:hover::before {
+        content: attr(data-name);
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 16px;
+        color: #333;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+        font-weight: 600;
+      }
+      @media screen and (max-width:768px) {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}

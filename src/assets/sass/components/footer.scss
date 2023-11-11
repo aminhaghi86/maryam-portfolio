@@ -22,13 +22,16 @@ footer {
       }
     }
     .gmail {
-      &:hover path {
+      &:hover path,  &:hover {
         stroke: rgb(255, 0, 85);
+        fill: rgb(255, 0, 85);
       }
     }
     .whatsapp {
-      &:hover path {
+      &:hover path,
+      &:hover {
         stroke: rgb(0, 255, 85);
+        fill: rgb(0, 255, 85);
       }
     }
   }
