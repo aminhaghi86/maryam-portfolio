@@ -1,10 +1,12 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import { Tab } from "@headlessui/react";
-import HandyCrafts from "../HandyCrafts";
-import Painting from "../Painting";
-import Graphic from "../Graphic";
-import Design from "../Design";
-import Illustration from "../Illustration";
+
+// Lazy-loaded components
+const HandyCrafts = lazy(() => import("../HandyCrafts"));
+const Painting = lazy(() => import("../Painting"));
+const Graphic = lazy(() => import("../Graphic"));
+const Design = lazy(() => import("../Design"));
+const Illustration = lazy(() => import("../Illustration"));
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -15,7 +17,6 @@ const TabHeader = () => {
     Graphic: {
       component: <Graphic />,
     },
-
     Painting: {
       component: <Painting />,
     },
@@ -60,7 +61,7 @@ const TabHeader = () => {
                 "ring-white/60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2"
               )}
             >
-              {component}
+              <Suspense fallback={<div>Loading...</div>}>{component}</Suspense>
             </Tab.Panel>
           ))}
         </Tab.Panels>
