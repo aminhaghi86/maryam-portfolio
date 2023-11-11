@@ -1,13 +1,31 @@
-.cv-container {
-  min-height: 85vh;
-  max-height: 100vh;
+.about-page {
+  padding-top: 10vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
-
-  a {
-    text-decoration: none;
-    border: 1px solid #000;
-    padding: 8px 16px;
+  flex-direction: column;
+  min-height: 85vh;
+  max-height: fit-content;
+  .content {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    @media screen and (max-width:768px) {
+      font-size: 1.2rem;
+    }
   }
+  .cv-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      text-decoration: none;
+      border: 1px solid #000;
+      padding: 8px 16px;
+      transition: background-color, color 1s ease;
+      &:hover {
+        background-color: #000;
+        color: #fff;
+      }
+    }
+  }
+ 
 }
