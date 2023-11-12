@@ -71,10 +71,9 @@ export const paintingImages = [
   { id: 46, url: "./painting/IMG_1389.jpg", alt: "painting" },
   { id: 47, url: "./painting/IMG_1390.jpg", alt: "painting" },
   { id: 48, url: "./painting/IMG_1391.jpg", alt: "painting" },
-  { id: 49, url: "./painting/IMG_1392.jpg", alt: "painting" },
-  { id: 50, url: "./painting/IMG_1393.jpg", alt: "painting" },
-  { id: 51, url: "./painting/IMG_1395.jpg", alt: "painting" },
-  { id: 52, url: "./painting/IMG_1397.jpg", alt: "painting" },
+  { id: 49, url: "./painting/IMG_1393.jpg", alt: "painting" },
+  { id: 50, url: "./painting/IMG_1395.jpg", alt: "painting" },
+  { id: 51, url: "./painting/IMG_1397.jpg", alt: "painting" },
 ];
 export const graphicImages = [
   { id: 1, url: "./graphic-logo/IMG_1017.png", alt: "graphic" },
