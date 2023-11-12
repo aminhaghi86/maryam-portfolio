@@ -28,8 +28,19 @@ nav {
     .hamburger-icon {
       width: 45px;
       height: 45px;
+      transition: color, fill 1s ease-in-out;
       &:hover path {
-        fill: green;
+        fill: rgb(0, 255, 85);
+      }
+    }
+    .close-btn {
+      width: 45px;
+      height: 45px;
+      transition: color, fill 1s ease-in-out;
+      &:hover,
+      &:hover path {
+        color: red;
+        fill: red;
       }
     }
   }

@@ -3,8 +3,7 @@ import React from "react";
 const Hamburger = () => {
   return (
     <svg
-      width="60"
-      height="60"
+
       viewBox="0 0 60 60"
       fill="none"
       className="hamburger-icon"

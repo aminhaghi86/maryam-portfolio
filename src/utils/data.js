@@ -107,7 +107,7 @@ export const illustrationImages = [
   { id: 6, url: "./illustration/IMG_1049.jpg", alt: "illustration" },
   { id: 7, url: "./illustration/IMG_1057.jpg", alt: "illustration" },
   { id: 8, url: "./illustration/IMG_1059.png", alt: "illustration" },
-  { id: 9, url: "./illustration/IMG_1131.jpg", alt: "illustration" },
+  { id: 9, url: "./illustration/IMG_1132.png", alt: "illustration" },
   { id: 10, url: "./illustration/artwork1.png", alt: "illustration" },
   { id: 11, url: "./illustration/artwork2.png", alt: "illustration" },
   { id: 12, url: "./illustration/artwork3.png", alt: "illustration" },
