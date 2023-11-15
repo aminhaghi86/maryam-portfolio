@@ -13,12 +13,6 @@ const Landing = () => {
           <span style={{ paddingLeft: "3rem" }}>and</span> <br />
           Illustrator
         </p>
-        {/* <img
-          className="logo-image"
-          src="./IMG_0493.png"
-          alt="maryadm"
-          style={{ background: "none" }}
-        /> */}
       </div>
     </>
   );

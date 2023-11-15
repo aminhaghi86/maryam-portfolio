@@ -10,13 +10,13 @@ import Figma from "../SVG/Figma";
 import HandPainting from "../SVG/HandPainting";
 import Photoshop from "../SVG/Photoshop";
 import Textile from "../SVG/Textile";
-
+import AdobeIllustrator from "../SVG/AdobeIllustrator";
 const skillsData = [
   { id: 1, name: "Art", icon: <Art /> },
   { id: 2, name: "Color Theory", icon: <ColorTheory /> },
   { id: 3, name: "Adobe", icon: <Adobe /> },
   { id: 4, name: "Logo Design", icon: <Artpc /> },
-  { id: 5, name: "Blender", icon: <Blender /> },
+  { id: 5, name: "Abode illustrator", icon: <AdobeIllustrator /> },
   { id: 6, name: "Calligraphy", icon: <Calligraphy /> },
   { id: 7, name: "Figma", icon: <Figma /> },
   { id: 8, name: "Hand Painting", icon: <HandPainting /> },

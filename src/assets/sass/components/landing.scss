@@ -8,24 +8,6 @@
     width: 100vw;
     height: 100vh;
     object-fit: contain;
-    // transition: all .5s ease;
-  }
-
-  img.logo-image {
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top: 8%;
-    left: 45%;
-    @media screen and (max-width: 768px) {
-      & {
-        width: 100px;
-        height: 100px;
-        top: 25%;
-        left: 50%;
-        transform: translate(-50%, 0);
-      }
-    }
   }
   .content-first {
     position: absolute;
