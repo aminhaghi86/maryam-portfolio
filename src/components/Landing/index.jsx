@@ -4,14 +4,21 @@ const Landing = () => {
     <>
       <div className="landing-container">
         <img className="maryam-image" src="./Maryam.png" alt="landing-image" />
-        <p className="content-first">I'm Maryam Fadaei</p>
-        <p className="content-second">Senior Graphic Designer</p>
-        <img
-        className="logo-image"
+        <p className="content-first">
+          I'm Maryam
+          <br /> Fadaei
+        </p>
+        <p className="content-second">
+          Graphic Designer <br />
+          <span style={{ paddingLeft: "3rem" }}>and</span> <br />
+          Illustrator
+        </p>
+        {/* <img
+          className="logo-image"
           src="./IMG_0493.png"
           alt="maryadm"
           style={{ background: "none" }}
-        />
+        /> */}
       </div>
     </>
   );
