@@ -23,6 +23,12 @@ export const handyImages = [
   { id: 22, url: "./handicrafts/IMG_1423.jpg", alt: "Handicraft 22" },
 ];
 export const paintingImages = [
+
+  { id: 49, url: "./painting/IMG_1393.jpg", alt: "painting" },
+  { id: 50, url: "./painting/IMG_1395.jpg", alt: "painting" },
+  { id: 51, url: "./painting/IMG_1397.jpg", alt: "painting" },
+  { id: 46, url: "./painting/IMG_1389.jpg", alt: "painting" },
+  { id: 47, url: "./painting/IMG_1390.jpg", alt: "painting" },
   { id: 1, url: "./painting/IMG_1319.jpg", alt: "painting" },
   { id: 2, url: "./painting/IMG_1324.jpg", alt: "painting" },
   { id: 3, url: "./painting/IMG_1325.jpg", alt: "painting" },
@@ -68,12 +74,8 @@ export const paintingImages = [
   { id: 43, url: "./painting/IMG_1386.jpg", alt: "painting" },
   { id: 44, url: "./painting/IMG_1387.jpg", alt: "painting" },
   { id: 45, url: "./painting/IMG_1388.jpg", alt: "painting" },
-  { id: 46, url: "./painting/IMG_1389.jpg", alt: "painting" },
-  { id: 47, url: "./painting/IMG_1390.jpg", alt: "painting" },
+
   { id: 48, url: "./painting/IMG_1391.jpg", alt: "painting" },
-  { id: 49, url: "./painting/IMG_1393.jpg", alt: "painting" },
-  { id: 50, url: "./painting/IMG_1395.jpg", alt: "painting" },
-  { id: 51, url: "./painting/IMG_1397.jpg", alt: "painting" },
 ];
 export const graphicImages = [
   { id: 1, url: "./graphic-logo/IMG_1017.png", alt: "graphic" },
