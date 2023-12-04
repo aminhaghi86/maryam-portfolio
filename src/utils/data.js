@@ -82,6 +82,10 @@ export const graphicImages = [
   { id: 4, url: "./graphic-logo/Artwork2.png", alt: "graphic" },
   { id: 5, url: "./graphic-logo/Artwork3.png", alt: "graphic" },
   { id: 6, url: "./graphic-logo/Artwork4.png", alt: "graphic" },
+  { id: 7, url: "./graphic-logo/IMG_1090.jpg", alt: "graphic" },
+  { id: 8, url: "./graphic-logo/IMG_1117.jpg", alt: "graphic" },
+  { id: 9, url: "./graphic-logo/IMG_1196.jpg", alt: "graphic" },
+  { id: 10, url: "./graphic-logo/IMG_1006.jpg", alt: "graphic" },
 ];
 export const designImages = [
   { id: 1, url: "./design/IMG_0846.PNG", alt: "design" },
@@ -120,20 +124,27 @@ export const designImages = [
 ];
 
 export const illustrationImages = [
-  { id: 1, url: "./illustration/IMG_1030.jpg", alt: "illustration" },
-  { id: 2, url: "./illustration/IMG_1031.jpg", alt: "illustration" },
-  { id: 3, url: "./illustration/IMG_1032.jpg", alt: "illustration" },
-  { id: 4, url: "./illustration/IMG_1034.jpg", alt: "illustration" },
-  { id: 5, url: "./illustration/IMG_1035.jpg", alt: "illustration" },
-  { id: 6, url: "./illustration/IMG_1036.jpg", alt: "illustration" },
-  { id: 7, url: "./illustration/IMG_1049.jpg", alt: "illustration" },
-  { id: 8, url: "./illustration/IMG_1057.jpg", alt: "illustration" },
-  { id: 9, url: "./illustration/IMG_1059.png", alt: "illustration" },
-  { id: 10, url: "./illustration/IMG_1132.png", alt: "illustration" },
-  { id: 11, url: "./illustration/artwork1.png", alt: "illustration" },
-  { id: 12, url: "./illustration/artwork2.png", alt: "illustration" },
-  { id: 13, url: "./illustration/artwork3.png", alt: "illustration" },
-  { id: 14, url: "./illustration/artwork4.png", alt: "illustration" },
-  { id: 15, url: "./illustration/artwork5.png", alt: "illustration" },
-  { id: 16, url: "./illustration/artwork6.png", alt: "illustration" },
+  { id: 1, url: "./illustration/artwork6.png", alt: "illustration" },
+  { id: 2, url: "./illustration/IMG_0993.jpg", alt: "illustration" },
+  { id: 3, url: "./illustration/artwork1.png", alt: "illustration" },
+  { id: 4, url: "./illustration/artwork2.png", alt: "illustration" },
+  { id: 6, url: "./illustration/IMG_1030.jpg", alt: "illustration" },
+  { id: 7, url: "./illustration/IMG_1031.jpg", alt: "illustration" },
+  { id: 8, url: "./illustration/IMG_1032.jpg", alt: "illustration" },
+  { id: 9, url: "./illustration/IMG_1034.jpg", alt: "illustration" },
+  { id: 10, url: "./illustration/IMG_1035.jpg", alt: "illustration" },
+  { id: 11, url: "./illustration/IMG_1036.jpg", alt: "illustration" },
+  { id: 12, url: "./illustration/IMG_1049.jpg", alt: "illustration" },
+  { id: 13, url: "./illustration/IMG_1057.jpg", alt: "illustration" },
+  { id: 14, url: "./illustration/IMG_1059.png", alt: "illustration" },
+  { id: 15, url: "./illustration/IMG_1132.png", alt: "illustration" },
+  { id: 16, url: "./illustration/artwork3.png", alt: "illustration" },
+  { id: 17, url: "./illustration/artwork4.png", alt: "illustration" },
+  { id: 18, url: "./illustration/artwork5.png", alt: "illustration" },
 ];
+
+export const HeroInfo = {
+  content: "One of the women artists around the world in 2019",
+  imageHero: "./Hero.jpg",
+  imageBook: "./book.jpg",
+};
