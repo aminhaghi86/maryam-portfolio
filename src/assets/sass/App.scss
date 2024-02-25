@@ -8,6 +8,8 @@
 @import "./components/nav.scss";
 @import "./components/skills.scss";
 @import "./components/hero.scss";
+@import "./components/imageslider.scss";
+@import "react-slideshow-image/dist/styles.css";
 #root {
   background: rgb(166, 166, 166);
   background: linear-gradient(

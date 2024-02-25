@@ -14,12 +14,14 @@ function classNames(...classes) {
 
 const TabHeader = () => {
   const categories = {
-    Graphic: {
-      component: <Graphic />,
-    },
     Painting: {
       component: <Painting />,
     },
+
+    Graphic: {
+      component: <Graphic />,
+    },
+
     Illustrations: {
       component: <Illustration />,
     },

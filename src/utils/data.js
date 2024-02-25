@@ -23,7 +23,6 @@ export const handyImages = [
   { id: 22, url: "./handicrafts/IMG_1423.jpg", alt: "Handicraft 22" },
 ];
 export const paintingImages = [
-
   { id: 49, url: "./painting/IMG_1393.jpg", alt: "painting" },
   { id: 50, url: "./painting/IMG_1395.jpg", alt: "painting" },
   { id: 51, url: "./painting/IMG_1397.jpg", alt: "painting" },
@@ -81,7 +80,7 @@ export const graphicImages = [
   { id: 1, url: "./graphic-logo/IMG_1017.png", alt: "graphic" },
   { id: 2, url: "./graphic-logo/IMG_1020.png", alt: "graphic" },
   { id: 3, url: "./graphic-logo/Artwork1.png", alt: "graphic" },
-  { id: 4, url: "./graphic-logo/Artwork2.png", alt: "graphic" },
+  // { id: 4, url: "./graphic-logo/Artwork2.png", alt: "graphic" },
   { id: 5, url: "./graphic-logo/Artwork3.png", alt: "graphic" },
   { id: 6, url: "./graphic-logo/Artwork4.png", alt: "graphic" },
   { id: 7, url: "./graphic-logo/IMG_1090.jpg", alt: "graphic" },
@@ -150,7 +149,7 @@ export const illustrationImages = [
 ];
 
 export const HeroInfo = {
-  content: "One of the women artists around the world in 2019",
+  content: "One of the hundred women artists around the world in 2019",
   imageHero: "./Hero.jpg",
   imageBook: "./book.jpg",
 };
